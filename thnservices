@@ -1,0 +1,18 @@
+print("FluxxWave Browser: browse the THN services safely")
+print("MAIN THN WEBSITES")
+print("file-db.thn")
+print("forum.thn")
+src = input("Search on THN, remember to do not digit URLs and uppercase letters")
+if src == "file-db.thn or src == "file-db":
+ import webbrowser
+ webbrowser.open("http://www.inskinarchive.it/filedb.html")
+elif src == "forum.thn":
+ import webbrowser
+ webbrowser.open("http://www.inskinarchive.it/forum.thn.py")
+
+
+
+
+
+
+
